@@ -19,3 +19,4 @@ print(prediction.depth.shape)        # Depth maps: [N, H, W] float32
 print(prediction.conf.shape)         # Confidence maps: [N, H, W] float32
 print(prediction.extrinsics.shape)   # Camera poses (w2c): [N, 3, 4] float32
 print(prediction.intrinsics.shape)   # Camera intrinsics: [N, 3, 3] float32
+print('prediction.intrinsics.shape')
